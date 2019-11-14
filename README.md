@@ -17,4 +17,4 @@ Run the code by either downloading the file or coping the code and follow the on
 
 The output is shown below:
 
-![Sample Output][rsa_output.png]
+![Sample Output](rsa_output.png)
