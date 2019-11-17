@@ -27,7 +27,7 @@ def multiplicative_inverse(e, phi):
         t2 = t
         
     if r1 == 1:
-        return t1
+        return t1%phi
 
 
 #Tests to see if a number is prime.
