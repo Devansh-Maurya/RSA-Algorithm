@@ -102,6 +102,6 @@ if __name__ == '__main__':
     
     encrypted_msg = encrypt(private, message)
     print("\nEncrypted message: ")
-    print(''.join(map(lambda x: str(x), encrypted_msg)))
+    print(''.join(map(str, encrypted_msg)))
     print("\nDecrypted message:")
     print(decrypt(public, encrypted_msg))
